@@ -21,6 +21,11 @@
 		45A48768195831F900EF5CC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A4874A195831F900EF5CC7 /* UIKit.framework */; };
 		45A48770195831F900EF5CC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A4876E195831F900EF5CC7 /* InfoPlist.strings */; };
 		45A48772195831F900EF5CC7 /* DesignPatternBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A48771195831F900EF5CC7 /* DesignPatternBuilderTests.m */; };
+		45A4877D195832CE00EF5CC7 /* DPBVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4877C195832CE00EF5CC7 /* DPBVehicle.m */; };
+		45A487801958367200EF5CC7 /* DPBVehicleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4877F1958367200EF5CC7 /* DPBVehicleBuilder.m */; };
+		45A4878319583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4878219583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m */; };
+		45A4878C19584F4900EF5CC7 /* DPBSportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4878B19584F4900EF5CC7 /* DPBSportsCar.m */; };
+		45A4878F1958512C00EF5CC7 /* DPBCoupeCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4878E1958512C00EF5CC7 /* DPBCoupeCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		45A4876D195831F900EF5CC7 /* DesignPatternBuilderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatternBuilderTests-Info.plist"; sourceTree = "<group>"; };
 		45A4876F195831F900EF5CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45A48771195831F900EF5CC7 /* DesignPatternBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternBuilderTests.m; sourceTree = "<group>"; };
+		45A4877B195832CE00EF5CC7 /* DPBVehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBVehicle.h; sourceTree = "<group>"; };
+		45A4877C195832CE00EF5CC7 /* DPBVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBVehicle.m; sourceTree = "<group>"; };
+		45A4877E1958367200EF5CC7 /* DPBVehicleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBVehicleBuilder.h; sourceTree = "<group>"; };
+		45A4877F1958367200EF5CC7 /* DPBVehicleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBVehicleBuilder.m; sourceTree = "<group>"; };
+		45A4878119583A1100EF5CC7 /* DPBVehicleAssemblyPlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBVehicleAssemblyPlant.h; sourceTree = "<group>"; };
+		45A4878219583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBVehicleAssemblyPlant.m; sourceTree = "<group>"; };
+		45A4878A19584F4900EF5CC7 /* DPBSportsCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBSportsCar.h; sourceTree = "<group>"; };
+		45A4878B19584F4900EF5CC7 /* DPBSportsCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBSportsCar.m; sourceTree = "<group>"; };
+		45A4878D1958512C00EF5CC7 /* DPBCoupeCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBCoupeCar.h; sourceTree = "<group>"; };
+		45A4878E1958512C00EF5CC7 /* DPBCoupeCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBCoupeCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,16 @@
 		45A4873A195831F900EF5CC7 = {
 			isa = PBXGroup;
 			children = (
+				45A4878D1958512C00EF5CC7 /* DPBCoupeCar.h */,
+				45A4878E1958512C00EF5CC7 /* DPBCoupeCar.m */,
+				45A4878A19584F4900EF5CC7 /* DPBSportsCar.h */,
+				45A4878B19584F4900EF5CC7 /* DPBSportsCar.m */,
+				45A4878119583A1100EF5CC7 /* DPBVehicleAssemblyPlant.h */,
+				45A4878219583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m */,
+				45A4877E1958367200EF5CC7 /* DPBVehicleBuilder.h */,
+				45A4877F1958367200EF5CC7 /* DPBVehicleBuilder.m */,
+				45A4877B195832CE00EF5CC7 /* DPBVehicle.h */,
+				45A4877C195832CE00EF5CC7 /* DPBVehicle.m */,
 				45A4874C195831F900EF5CC7 /* DesignPatternBuilder */,
 				45A4876B195831F900EF5CC7 /* DesignPatternBuilderTests */,
 				45A48745195831F900EF5CC7 /* Frameworks */,
@@ -250,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A4878F1958512C00EF5CC7 /* DPBCoupeCar.m in Sources */,
 				45A48753195831F900EF5CC7 /* main.m in Sources */,
+				45A4877D195832CE00EF5CC7 /* DPBVehicle.m in Sources */,
+				45A487801958367200EF5CC7 /* DPBVehicleBuilder.m in Sources */,
+				45A4878C19584F4900EF5CC7 /* DPBSportsCar.m in Sources */,
 				45A4875D195831F900EF5CC7 /* DPBViewController.m in Sources */,
 				45A48757195831F900EF5CC7 /* DPBAppDelegate.m in Sources */,
+				45A4878319583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DPBVehicleAssemblyPlant.h"
+#import "DPBVehicleBuilder.h"
+#import "DPBSportsCar.h"
+#import "DPBCoupeCar.h"
 
 @interface DPBViewController : UIViewController
 
