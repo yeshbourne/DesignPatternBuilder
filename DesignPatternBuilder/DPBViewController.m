@@ -25,7 +25,7 @@
   DPBVehicleBuilder *builder;
 
   // Assembling sports car in the plant
-  builder = [[DPBSportsCarBuilder alloc] init];
+  builder = [[DPBSportsCar alloc] init];
   [shop vehicleAssembly:builder];
   [builder.vehicle showBuildVehicle];
 
