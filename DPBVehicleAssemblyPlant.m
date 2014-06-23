@@ -16,27 +16,26 @@
 
 @implementation DPBVehicleAssemblyPlant
 
-#pragma mark - 
+#pragma mark -
 #pragma mark vehicle Assembly Plant Initialzer/Constructor
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-            //initilizer or constructor
-    }
-    return self;
+- (instancetype)init {
+  self = [super init];
+  if (self) {
+    // initilizer or constructor
+  }
+  return self;
 }
 
-#pragma mark - 
+#pragma mark -
 #pragma mark Vehicle Assembly Begins
--(void)vehicleAssembly:(DPBVehicleBuilder *)vehicleBuilder{
-    
-    _vehicleBuilder = vehicleBuilder;
+- (void)vehicleAssembly:(DPBVehicleBuilder *)vehicleBuilder {
 
-    [self.vehicleBuilder buildVehicleChassis];
-    [self.vehicleBuilder buildVehicleEngine];
-    [self.vehicleBuilder buildVehicleWheels];
-    [self.vehicleBuilder buildVehicleDoors];
+  _vehicleBuilder = vehicleBuilder;
+
+  [self.vehicleBuilder buildVehicleChassis];
+  [self.vehicleBuilder buildVehicleEngine];
+  [self.vehicleBuilder buildVehicleWheels];
+  [self.vehicleBuilder buildVehicleDoors];
 }
 
 @end

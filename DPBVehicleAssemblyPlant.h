@@ -11,6 +11,11 @@
 
 @interface DPBVehicleAssemblyPlant : NSObject
 
+/**
+ *  Method to set Assembly plant with vehicle builder
+ *
+ *  @param vehicleBuilder parameter to specify vehicle builder
+ */
 - (void)vehicleAssembly:(DPBVehicleBuilder *)vehicleBuilder;
 
 @end

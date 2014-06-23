@@ -26,6 +26,7 @@
 		45A4878319583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4878219583A1100EF5CC7 /* DPBVehicleAssemblyPlant.m */; };
 		45A4878C19584F4900EF5CC7 /* DPBSportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4878B19584F4900EF5CC7 /* DPBSportsCar.m */; };
 		45A4878F1958512C00EF5CC7 /* DPBCoupeCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4878E1958512C00EF5CC7 /* DPBCoupeCar.m */; };
+		45A487921958619F00EF5CC7 /* DPBSuperBike.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A487911958619F00EF5CC7 /* DPBSuperBike.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		45A4878B19584F4900EF5CC7 /* DPBSportsCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBSportsCar.m; sourceTree = "<group>"; };
 		45A4878D1958512C00EF5CC7 /* DPBCoupeCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBCoupeCar.h; sourceTree = "<group>"; };
 		45A4878E1958512C00EF5CC7 /* DPBCoupeCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBCoupeCar.m; sourceTree = "<group>"; };
+		45A487901958619F00EF5CC7 /* DPBSuperBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBSuperBike.h; sourceTree = "<group>"; };
+		45A487911958619F00EF5CC7 /* DPBSuperBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBSuperBike.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 		45A4873A195831F900EF5CC7 = {
 			isa = PBXGroup;
 			children = (
+				45A487901958619F00EF5CC7 /* DPBSuperBike.h */,
+				45A487911958619F00EF5CC7 /* DPBSuperBike.m */,
 				45A4878D1958512C00EF5CC7 /* DPBCoupeCar.h */,
 				45A4878E1958512C00EF5CC7 /* DPBCoupeCar.m */,
 				45A4878A19584F4900EF5CC7 /* DPBSportsCar.h */,
@@ -278,6 +283,7 @@
 				45A4878F1958512C00EF5CC7 /* DPBCoupeCar.m in Sources */,
 				45A48753195831F900EF5CC7 /* main.m in Sources */,
 				45A4877D195832CE00EF5CC7 /* DPBVehicle.m in Sources */,
+				45A487921958619F00EF5CC7 /* DPBSuperBike.m in Sources */,
 				45A487801958367200EF5CC7 /* DPBVehicleBuilder.m in Sources */,
 				45A4878C19584F4900EF5CC7 /* DPBSportsCar.m in Sources */,
 				45A4875D195831F900EF5CC7 /* DPBViewController.m in Sources */,

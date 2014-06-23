@@ -11,6 +11,7 @@
 #import "DPBVehicleBuilder.h"
 #import "DPBSportsCar.h"
 #import "DPBCoupeCar.h"
+#import "DPBSuperBike.h"
 
 @interface DPBViewController : UIViewController
 

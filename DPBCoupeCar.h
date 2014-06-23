@@ -9,6 +9,6 @@
 #import "DPBVehicleBuilder.h"
 #import "DPBVehicle.h"
 
-@interface DPBCoupeCar : DPBVehicleBuilder<DPBVehicleBuilderProtocol>
+@interface DPBCoupeCar : DPBVehicleBuilder <DPBVehicleBuilderProtocol>
 
 @end

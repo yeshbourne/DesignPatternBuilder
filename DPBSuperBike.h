@@ -1,5 +1,5 @@
 //
-//  DPBSportsCarBuilder.h
+//  DPBSuperBike.h
 //  DesignPatternBuilder
 //
 //  Created by Yeshwanth.Gowda on 6/23/14.
@@ -7,9 +7,8 @@
 //
 
 #import "DPBVehicleBuilder.h"
+#import "DPBVehicle.h"
 
-@interface DPBSportsCar : DPBVehicleBuilder<DPBVehicleBuilderProtocol>
-
-
+@interface DPBSuperBike : DPBVehicleBuilder<DPBVehicleBuilderProtocol>
 
 @end

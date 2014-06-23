@@ -10,10 +10,19 @@
 
 @interface DPBVehicle : NSObject
 
-@property(readwrite, retain) NSString *vehicleType;
 @property(readwrite, retain) NSMutableDictionary *vehicleParts;
 
+/**
+ *  <#Description#>
+ *
+ *  @param vehicleType Description
+ *
+ *  @return id
+ */
 - (instancetype)initWithVehicleType:(NSString *)vehicleType;
 
+/**
+ *  Method to show the vehicle that was build in the assembly plant.
+ */
 - (void)showBuildVehicle;
 @end

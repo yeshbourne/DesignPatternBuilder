@@ -10,11 +10,14 @@
 
 @interface DPBVehicle (/*Private*/)
 
-
+@property(readwrite, retain) NSString *vehicleType;
 
 @end
 
 @implementation DPBVehicle
+
+#pragma mark - 
+#pragma mark Vehicle Initialize/Constructed
 
 - (instancetype)init {
   self = [super init];

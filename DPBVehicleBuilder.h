@@ -22,4 +22,5 @@
 @interface DPBVehicleBuilder : NSObject <DPBVehicleBuilderProtocol>
 
 @property(readwrite, retain) DPBVehicle *vehicle;
+
 @end
