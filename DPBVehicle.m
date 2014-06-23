@@ -39,7 +39,7 @@
   NSLog(@"Vehicle Chassis::%@", [self.vehicleParts valueForKey:@"chassis"]);
   NSLog(@"Vehicle Engine::%@", [self.vehicleParts valueForKey:@"engine"]);
   NSLog(@"Vehicle Wheels::%@", [self.vehicleParts valueForKey:@"wheels"]);
-  NSLog(@"Vehicle Doors::%@", [self.vehicleParts valueForKey:@"deoors"]);
+  NSLog(@"Vehicle Doors::%@", [self.vehicleParts valueForKey:@"doors"]);
 }
 
 @end
